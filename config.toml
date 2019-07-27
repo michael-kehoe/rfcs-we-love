@@ -1,3 +1,14 @@
-baseURL = "http://example.org/"
+baseURL = "https://rfcswelove.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "RFCs We Love"
+
+paginate = 5
+Copyright = "All rights reserved - 2019"
+canonifyurls = false
+
+[params]
+  description = "RFCs We Love"
+  author = "Michael Kehoe"
+  authorlocation = "San Francisco, CA"
+  authorwebsite = "https://rfcswelove.com/"
+  hideHUGOSupport = true
